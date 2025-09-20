@@ -59,7 +59,7 @@
     },
 
     "clock": {
-        "format": "{:%a %d, %I:%M %p}",
+        "format": "{:%a %d, %H:%M }",
         "tooltip": false
     },
 
@@ -75,7 +75,7 @@
     "memory": {
         "format": "  {percentage}%",
         "interval": 2,
-
+	"on-click": "kitty -e htop",
         "states": {
             "critical": 80
         }
